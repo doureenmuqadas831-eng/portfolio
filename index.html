@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #fffdd0; /* cream */
+      color: #2e8b57; /* seagreen text */
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2e8b57; /* seagreen */
+      color: #fffdd0; /* cream text */
+      padding: 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700; /* bold */
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #2e8b57;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fffdd0; /* cream */
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #2e8b57; /* seagreen */
+    }
+
+    .about, .projects, .contact {
+      background: #fffdd0; /* cream */
+      border: 2px solid #2e8b57; /* seagreen border */
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      transition: 0.3s ease;
+    }
+
+    /* Hover effect for About, Projects, Contact sections */
+    .about:hover, .contact:hover {
+      background: #2e8b57; /* seagreen */
+      color: #fffdd0; /* cream text */
+      transform: translateY(-3px);
+    }
+
+    .about:hover h2, .contact:hover h2 {
+      color: #fffdd0;
+    }
+
+    .projects ul {
+      list-style-type: none;
+    }
+
+    .projects li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background: #fffdd0; /* cream */
+      color: #2e8b57; /* seagreen */
+      border: 2px solid #2e8b57;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    /* Hover effect for project items */
+    .projects li:hover {
+      background: #2e8b57; /* seagreen */
+      color: #fffdd0; /* cream */
+      transform: translateY(-3px);
+    }
+
+    .social-links {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      text-decoration: none;
+      color: #fffdd0;
+      background: #2e8b57;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      text-align: center;
+      background: #2e8b57;
+      color: #fffdd0;
+      padding: 15px;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AHMAD ABDULLAH</h1>
+    <p>UK LEVEL 03 STUDENT</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! My name is Ahmad. I am a student in the UK, currently studying at Level 03. I am passionate about learning coding and website development. This portfolio showcases my journey as I practice and improve my skills in web technologies like HTML and CSS.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li>Personal Portfolio Website (This one!)</li>
+      <li>Basic Landing Page for Practice</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you want to contact me, you can email me at:</p>
+    <p><strong><a href="mailto:behrozahmad08@gmail.com" style="color:#2e8b57;">behrozahmad08@gmail.com</a></strong></p>
+    <p>Or connect with me through my social media links given below.</p>
+  </section>
+
+  <!-- Social Media Buttons -->
+  <div class="social-links">
+    <a href="https://www.instagram.com/fk_i6rael?igsh=MTRxMTB2cGltbnhneg%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/ahmad-abdullah-460707361" target="_blank">LinkedIn</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Ahmad | Portfolio Website</p>
+  </footer>
+
+</body>
+</html>
